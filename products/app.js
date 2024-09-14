@@ -12,8 +12,8 @@ let products = [
 ];
 
 // Get all products
-app.get("/products", (req, res) => {
-  res.json(products);
+app.get("/a", (req, res) => {
+res.json({products})
 });
 
 // Get a specific product by ID
