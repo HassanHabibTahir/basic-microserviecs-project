@@ -13,6 +13,11 @@
         "src": "/api/(.*)",
         "dest": "/api/app.js"
       }
+    ],
+    "builds": [
+      { "src": "api/app.js", "use": "@vercel/node" },
+      { "src": "biotech/app.js", "use": "@vercel/node" },
+      { "src": "products/app.js", "use": "@vercel/node" }
     ]
   }
   
