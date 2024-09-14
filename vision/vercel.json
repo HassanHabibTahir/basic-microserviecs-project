@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "routes": [
+      {
+        "src": "/api/biotech/(.*)",
+        "dest": "/biotech/app.js"
+      },
+      {
+        "src": "/api/products/(.*)",
+        "dest": "/products/app.js"
+      },
+      {
+        "src": "/api/(.*)",
+        "dest": "/api/app.js"
+      }
+    ]
+  }
+  
